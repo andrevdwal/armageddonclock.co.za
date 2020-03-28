@@ -1,0 +1,22 @@
+h1 {
+    font-size: 12em;
+}
+h5 {
+    font-size: 3em;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#container * {
+    width: 100%;
+    text-align: center;
+}
